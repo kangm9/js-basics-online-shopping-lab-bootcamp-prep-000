@@ -41,7 +41,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var getCart
+  if (cart === 0)
+  return "That item is not in you cart."
+  cart.slice ()
 }
 
 function placeOrder(cardNumber) {
