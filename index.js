@@ -33,7 +33,6 @@ function viewCart() {
   }return string;
 }
 
-
 function total() {
   // write your code here
 }
