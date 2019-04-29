@@ -34,8 +34,10 @@ function viewCart() {
 }
 
 function total() {
+  let totalPrice = 0;
   for(let i = 0; i < getCart().length; i++) {
-  } return getCart()[i].itemPrice;
+    totalPrice+= getCart()[i].itemPrice;
+  } return totalPrice;
 }
 
 function removeFromCart(item) {
